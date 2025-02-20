@@ -1,25 +1,14 @@
 [
   {
     "relation": [
-      "delegate_permission/common_handler"
-    ],
-    "target": {
-      "namespace": "com.example.customer",
-      "package_name": "com.example.customer",
-      "sha256_cert_fingerprints": [
-        "3D:BA:D8:19:84:B3:32:3F:82:97:5C:F6:91:B8:F6:59:F3:31:78:8E:BC:19:B6:01:93:30:AE:DD:82:C8:1A:FA"
-      ]
-    }
-  },
-  {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
     ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.example.customer",
       "sha256_cert_fingerprints": [
-        "3D:BA:D8:19:84:B3:32:3F:82:97:5C:F6:91:B8:F6:59:F3:31:78:8E:BC:19:B6:01:93:30:AE:DD:82:C8:1A:FA"
+        "2D:A6:1C:C0:55:E5:D8:26:D8:D7:D7:80:FE:B6:C7:5B:4C:46:36:72:7F:9D:61:4F:D4:D8:1F:EA:69:FB:C7:9D"
       ]
     }
   }
